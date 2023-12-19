@@ -1,0 +1,15 @@
+{
+    "name": "emendis/cargo",
+    "description": "Calculate Cargo transport",
+    "autoload": {
+        "psr-4": {
+            "Emendis\\Cargo\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
