@@ -1,10 +1,10 @@
 <?php
 
-namespace Emendis\Cargo\Models;
+namespace Dmoldovanu\Cargo\Models;
 
-use Emendis\Cargo\Traits\CountTrait;
-use Emendis\Cargo\Traits\DimensionTrait;
-use Emendis\Cargo\Traits\VolumeTrait;
+use Dmoldovanu\Cargo\Traits\CountTrait;
+use Dmoldovanu\Cargo\Traits\DimensionTrait;
+use Dmoldovanu\Cargo\Traits\VolumeTrait;
 
 class Tile
 {

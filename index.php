@@ -5,9 +5,9 @@ error_reporting(E_ALL);
 
 require __DIR__.'/vendor/autoload.php';
 
-use Emendis\Cargo\Enum\Rotate;
-use Emendis\Cargo\Enum\Sort;
-use Emendis\Cargo\Services\CargoService;
+use Dmoldovanu\Cargo\Enum\Rotate;
+use Dmoldovanu\Cargo\Enum\Sort;
+use Dmoldovanu\Cargo\Services\CargoService;
 ?>
 <!doctype html>
 <html lang="en">

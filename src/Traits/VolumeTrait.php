@@ -1,6 +1,6 @@
 <?php
 
-namespace Emendis\Cargo\Traits;
+namespace Dmoldovanu\Cargo\Traits;
 
 trait VolumeTrait
 {

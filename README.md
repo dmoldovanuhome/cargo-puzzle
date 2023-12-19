@@ -1,5 +1,5 @@
 ```phpregexp
-$service = new Emendis\\Cargo\\Services\\CargoService();
+$service = new Dmoldovanu\\Cargo\\Services\\CargoService();
 
 // add packs into tiles, tiles into containers, containers into transport
 $service->calculateLinear(); 

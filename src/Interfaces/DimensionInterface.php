@@ -1,6 +1,6 @@
 <?php
 
-namespace Emendis\Cargo\Interfaces;
+namespace Dmoldovanu\Cargo\Interfaces;
 
 /**
  * @property float|int $width

@@ -1,6 +1,6 @@
 <?php
 
-namespace Emendis\Cargo\Enum;
+namespace Dmoldovanu\Cargo\Enum;
 
 interface TransportSet
 {

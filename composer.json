@@ -1,9 +1,9 @@
 {
-    "name": "emendis/cargo",
+    "name": "dmoldovanuhome/cargo-puzzle",
     "description": "Calculate Cargo transport",
     "autoload": {
         "psr-4": {
-            "Emendis\\Cargo\\": "src/"
+            "Dmoldovanu\\Cargo\\": "src/"
         },
         "files": [
             "src/helpers.php"

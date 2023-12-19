@@ -1,18 +1,18 @@
 <?php
 
-namespace Emendis\Cargo\Services;
+namespace Dmoldovanu\Cargo\Services;
 
-use Emendis\Cargo\Enum\ContainerSet;
-use Emendis\Cargo\Enum\Rotate;
-use Emendis\Cargo\Enum\Sort;
-use Emendis\Cargo\Enum\TransportSet;
-use Emendis\Cargo\Models\Container;
-use Emendis\Cargo\Models\Pack;
-use Emendis\Cargo\Models\Package;
-use Emendis\Cargo\Models\Tile;
-use Emendis\Cargo\Models\Transport;
-use Emendis\Cargo\Traits\DimensionTrait;
-use Emendis\Cargo\Traits\VolumeTrait;
+use Dmoldovanu\Cargo\Enum\ContainerSet;
+use Dmoldovanu\Cargo\Enum\Rotate;
+use Dmoldovanu\Cargo\Enum\Sort;
+use Dmoldovanu\Cargo\Enum\TransportSet;
+use Dmoldovanu\Cargo\Models\Container;
+use Dmoldovanu\Cargo\Models\Pack;
+use Dmoldovanu\Cargo\Models\Package;
+use Dmoldovanu\Cargo\Models\Tile;
+use Dmoldovanu\Cargo\Models\Transport;
+use Dmoldovanu\Cargo\Traits\DimensionTrait;
+use Dmoldovanu\Cargo\Traits\VolumeTrait;
 
 class CargoService
 {

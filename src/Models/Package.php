@@ -1,12 +1,12 @@
 <?php
 
-namespace Emendis\Cargo\Models;
+namespace Dmoldovanu\Cargo\Models;
 
-use Emendis\Cargo\Interfaces\DimensionInterface;
-use Emendis\Cargo\Traits\CountTrait;
-use Emendis\Cargo\Traits\DimensionTrait;
-use Emendis\Cargo\Traits\NameTrait;
-use Emendis\Cargo\Traits\VolumeTrait;
+use Dmoldovanu\Cargo\Interfaces\DimensionInterface;
+use Dmoldovanu\Cargo\Traits\CountTrait;
+use Dmoldovanu\Cargo\Traits\DimensionTrait;
+use Dmoldovanu\Cargo\Traits\NameTrait;
+use Dmoldovanu\Cargo\Traits\VolumeTrait;
 
 class Package implements DimensionInterface
 {

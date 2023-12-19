@@ -1,8 +1,8 @@
 <?php
 
-namespace Emendis\Cargo\Models;
+namespace Dmoldovanu\Cargo\Models;
 
-use Emendis\Cargo\Traits\VolumeTrait;
+use Dmoldovanu\Cargo\Traits\VolumeTrait;
 
 class Transport
 {
