@@ -1,2 +1,2 @@
-# cargo-puzzle
-# cargo-puzzle
+# cargo-puzzle v1.1
+
