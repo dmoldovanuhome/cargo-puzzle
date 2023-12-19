@@ -173,7 +173,7 @@ class CargoService
         return  $transport;
     }
 
-    private function createTransport(array $data) : Transport
+    public function createTransport(array $data) : Transport
     {
         $transport = new Transport();
 
@@ -198,7 +198,7 @@ class CargoService
      * @param int $order
      * @return void
      */
-    private function sortByVolume(array &$set, int $order) : void
+    public function sortByVolume(array &$set, int $order) : void
     {
         usort($set, function ($a, $b) use ($order) {
             /** @var VolumeTrait $a */
@@ -211,7 +211,7 @@ class CargoService
         });
     }
 
-    private function sortByLength(array &$set, int $order) : void
+    public function sortByLength(array &$set, int $order) : void
     {
         usort($set, function ($a, $b) use ($order) {
             /** @var DimensionTrait $a */
@@ -341,7 +341,7 @@ class CargoService
      * @param int $rotation
      * @return void
      */
-    private function rotatePackages(Transport$transport, int $rotation) : void
+    public function rotatePackages(Transport$transport, int $rotation) : void
     {
         foreach ($transport->getPackages() as $package) {
             switch ($rotation) {
